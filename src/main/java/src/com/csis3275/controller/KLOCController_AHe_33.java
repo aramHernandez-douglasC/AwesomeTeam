@@ -12,7 +12,7 @@ import src.com.csis3275.model.KLOC_AHe_33;
 
 @Controller
 //Here we will have this controller respond to requests from /employee for the employee servlet.
-@RequestMapping("/employee")
+@RequestMapping("/KlocView_AHe_33")
 public class KLOCController_AHe_33 {
  /*
  * This method will serve as default GET handler.

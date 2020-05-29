@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h1>KLOC Calculator - Aram Hernandez - 300285533</h1>
-	<form:form method="POST" modelAttribute="employee">
+	<form:form method="POST" modelAttribute="KlocView_AHe_33">
 		<table>
 			<tr>
 				<td><label>KLOC</label></td>
