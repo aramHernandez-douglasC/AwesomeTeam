@@ -1,0 +1,9 @@
+VERIFICATION: 	It answers the question "Are we building it right?" refering to ensure that the
+	      	program implements certain functions or tasks
+
+VALIDATION:	It asnwers the question "Are we building the correct product?". Ensures that the
+		software in matter is built according to the customer needs
+
+The difference between both is that VERIFICATION deals with more specific aspects/functions 
+of the software that is being built, while VALIDATION ensure the whole software together meets
+what the customer is specting.

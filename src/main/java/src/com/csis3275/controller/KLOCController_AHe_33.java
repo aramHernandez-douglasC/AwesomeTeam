@@ -21,7 +21,7 @@ public class KLOCController_AHe_33 {
  public String newProfile(ModelMap model) {
  KLOC_AHe_33 count = new KLOC_AHe_33();
  model.addAttribute("count", count);
- return "employee";
+ return "KlocView_AHe_33";
  }
  /*
  * This method will be called on form submission, handling POST request It
@@ -32,12 +32,12 @@ public class KLOCController_AHe_33 {
  BindingResult result, ModelMap model) {
 	 
  if (result.hasErrors()) {
- return "employee";
+ return "KlocView_AHe_33";
  }
  
  model.addAttribute("success", "total is: " + count.getResult()  );
  model.addAttribute("count",count);
- return "success";
+ return "success_AHe_33.jsp";
  }
  
  
