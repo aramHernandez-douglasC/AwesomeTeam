@@ -12,13 +12,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import src.com.csis3275.model.Member;
 
 @Controller
-//Here we will have this controller respond to requests from /employee for the employee servlet.
 @RequestMapping("/TeamView")
 public class TeamController {
  /*
  * This method will serve as default GET handler.
  */
- @RequestMapping(value = "/TeamView", method = RequestMethod.GET)
+ @RequestMapping(method = RequestMethod.GET)
  public String newProfile(ModelMap model) {
  Member teamLeader = new Member();
  model.addAttribute("member", teamLeader);
