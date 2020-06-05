@@ -79,10 +79,7 @@ public class TeamController {
 	 
 	 members.add(member1);
 	 
-<<<<<<< HEAD
 	 
-	 
-	 Member member2 = new Member();
 	 member2.setName("Phu Quy Tran");
 	 
 	 ArrayList <String> tasksRyan =  new ArrayList<String>();
@@ -95,11 +92,7 @@ public class TeamController {
 	 
 	 members.add(member2);
 	 
-	 
-=======
-	 member2.setName("hello");
-	 member2.setStudent_ID(0000000000);
->>>>>>> c9885804d5f6de1e9c53de4e12dc2059bcbeefa8
+
 	
 	 return members;
 	 }

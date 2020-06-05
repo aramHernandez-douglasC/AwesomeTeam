@@ -34,6 +34,12 @@
 	<p>Student ID: ${members[0].getStudent_ID()}</p>
 	<h3> Tasks:</h3>
 	 ${members[0].toString()}  
+	 
+	 <hr>
+	 <p>Name: ${members[1].getName()}</p>
+	<p>Student ID: ${members[1].getStudent_ID()}</p>
+	<h3> Tasks:</h3>
+	 ${members[1].toString()}  
 	
 	
 </body>
