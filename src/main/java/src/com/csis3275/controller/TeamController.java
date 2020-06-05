@@ -50,6 +50,7 @@ public class TeamController {
 	 
 	 Member member1 = new Member();
 	 Member member2 = new Member();
+	 Member member3 = new Member();
 	 
 	 /* 
 	  * 
@@ -92,7 +93,21 @@ public class TeamController {
 	 
 	 members.add(member2);
 	 
+	 
+	 member3.setName("Chengze Wu");
+	 
+	 ArrayList <String> tasksChengze =  new ArrayList<String>();
+	 tasksRyan.add("UX/UI Design");
+	 tasksRyan.add("HTML/CSS Front End");
+	 tasksRyan.add("Testing");
+	 tasksAram.add("Developer Documentation");
+	 
+	 member2.setTasks(tasksChengze);
+	 member2.setStudent_ID(300301018);
+	 
+	 members.add(member3);
 
+	 
 	
 	 return members;
 	 }
