@@ -13,17 +13,17 @@ import src.com.csis3275.model.Member;
 
 @Controller
 //Here we will have this controller respond to requests from /employee for the employee servlet.
-@RequestMapping("/KlocView_AHe_33")
+@RequestMapping("/TeamView")
 public class TeamController {
  /*
  * This method will serve as default GET handler.
  */
- /*@RequestMapping(method = RequestMethod.GET)
+ @RequestMapping(method = RequestMethod.GET)
  public String newProfile(ModelMap model) {
- Member teamLeader = new Member();
- model.addAttribute("member", member);
- return "KlocView_AHe_33";
+ model.addAttribute("members", "abc");
+ return "TeamView";
  }
+ 
  /*
  * This method will be called on form submission, handling POST request It
  * also validates the user input
@@ -54,7 +54,4 @@ public class TeamController {
 	 countries.add("Other");
 	 return countries;
 	 }
- 
- 
-
 }

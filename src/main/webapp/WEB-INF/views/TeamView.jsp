@@ -9,23 +9,6 @@
 </head>
 <body>
 	<h1>KLOC Calculator - Aram Hernandez - 300285533</h1>
-	<form:form method="POST" modelAttribute="KlocView_AHe_33">
-		<table>
-			<tr>
-				<td><label>KLOC</label></td>
-				<td><form:input type="text" path="kloc" id="kloc" />
-					<form:errors path="kloc" style="color:red" /></td>
-			</tr>
-			<tr>
-				<td><label>Day Count</label></td>
-				<td><form:input type="text" path="Daycount" id="Daycount" /> <form:errors
-						path="Daycount " style="color:red" /></td>
-			</tr>
-			
-			<tr>
-				<td colspan="2"><input type="submit" value="Submit"></td>
-			</tr>
-		</table>
-	</form:form>
+	<p>The result is: ${members}</p> 
 </body>
 </html>
