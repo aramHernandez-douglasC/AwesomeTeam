@@ -81,6 +81,21 @@ public class TeamController {
 	 members.add(member1);
 	 
 	 
+	 
+	 Member member2 = new Member();
+	 member2.setName("Phu Quy Tran");
+	 
+	 ArrayList <String> tasksRyan =  new ArrayList<String>();
+	 tasksRyan.add("Back-end Development");
+	 tasksRyan.add("Database Creation and population");
+	 tasksRyan.add("JSP");
+	 
+	 member2.setTasks(tasksAram);
+	 member2.setStudent_ID(300303518);
+	 
+	 members.add(member2);
+	 
+	 
 	
 	 return members;
 	 }
