@@ -17,12 +17,14 @@ public class TeamController {
  /*
  * This method will serve as default GET handler.
  */
+
  @RequestMapping(method = RequestMethod.GET)
  public String newProfile(ModelMap model) {
- Member teamLeader = new Member();
- model.addAttribute("member", teamLeader);
+ model.addAttribute("members", initializeMembers());
+
  return "TeamView";
  }
+ 
  /*
  * This method will be called on form submission, handling POST request It
  * also validates the user input
@@ -47,6 +49,7 @@ public class TeamController {
 	 List<Member> members = new ArrayList<Member>();
 	 
 	 Member member1 = new Member();
+	 Member member2 = new Member();
 	 
 	 /* 
 	  * 
@@ -74,13 +77,11 @@ public class TeamController {
 	 member1.setTasks(tasksAram);
 	 member1.setStudent_ID(300285533);
 	 
+	 members.add(member1);
 	 
-	 
-	 
+	 member2.setName("hello");
+	 member2.setStudent_ID(0000000000);
 	
 	 return members;
 	 }
- 
- 
-
 }
