@@ -87,7 +87,7 @@ public class TeamController {
 	 tasksRyan.add("Database Creation and population");
 	 tasksRyan.add("JSP");
 	 
-	 member2.setTasks(tasksAram);
+	 member2.setTasks(tasksRyan);
 	 member2.setStudent_ID(300303518);
 	 
 	 members.add(member2);
