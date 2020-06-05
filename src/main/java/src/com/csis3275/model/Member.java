@@ -1,10 +1,12 @@
 package src.com.csis3275.model;
 
+import java.util.ArrayList;
+
 public class Member {
 	
 	private String name;
 	private int student_ID;
-	private String member_task;
+	private ArrayList <String> tasks;
 	
 	public String getName() {
 		return name;
@@ -18,11 +20,11 @@ public class Member {
 	public void setStudent_ID(int student_ID) {
 		this.student_ID = student_ID;
 	}
-	public String getMember_task() {
-		return member_task;
+	public ArrayList <String> getTasks() {
+		return tasks;
 	}
-	public void setMember_task(String member_task) {
-		this.member_task = member_task;
+	public void setTasks(ArrayList <String> tasks) {
+		this.tasks = tasks;
 	}
 	
 

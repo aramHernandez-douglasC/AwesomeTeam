@@ -18,9 +18,16 @@ public class TeamController {
  /*
  * This method will serve as default GET handler.
  */
+<<<<<<< HEAD
  @RequestMapping(method = RequestMethod.GET)
  public String newProfile(ModelMap model) {
  model.addAttribute("members", "abc");
+=======
+ @RequestMapping(value = "/TeamView", method = RequestMethod.GET)
+ public String newProfile(ModelMap model) {
+ Member teamLeader = new Member();
+ model.addAttribute("member", teamLeader);
+>>>>>>> 315805181f5c4e8cdf6fbcd9c159a066af8c151c
  return "TeamView";
  }
  
@@ -43,15 +50,42 @@ public class TeamController {
  
  */
 	
-	 @ModelAttribute("countries")
-	 public List<String> initializeCountries() {
-	 List<String> countries = new ArrayList<String>();
-	 countries.add("USA");
-	 countries.add("Canada");
-	 countries.add("France");
-	 countries.add("Indonesia");
-	 countries.add("Australia");
-	 countries.add("Other");
-	 return countries;
+	 @ModelAttribute("members")
+	 public List<Member> initializeMembers() {
+	 List<Member> members = new ArrayList<Member>();
+	 
+	 Member member1 = new Member();
+	 
+	 /* 
+	  * 
+		Web Service Development & integration
+		Scum Leader
+		Back-end Developer
+		Testing
+		Back-end Development
+		UML Documentation
+		Database Creation and population
+		UX/UI Design
+		HTML/CSS Front End
+		JSP
+		
+	*/
+	 
+	 member1.setName("Aram");
+	 
+	 ArrayList <String> tasksAram =  new ArrayList<String>();
+	 tasksAram.add("Team Leader");
+	 tasksAram.add("Web Service Development & integration");
+	 tasksAram.add("UML Documentation");
+	 tasksAram.add("Testing");
+	 
+	 member1.setTasks(tasksAram);
+	 member1.setStudent_ID(300285533);
+	 
+	 
+	 
+	 
+	
+	 return members;
 	 }
 }

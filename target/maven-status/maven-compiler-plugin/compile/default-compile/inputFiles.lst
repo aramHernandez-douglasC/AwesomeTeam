@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 E:\Study\CSIS\Summer 2020\CSIS 3275 - Software Engineering\Workspace\Group_Project\src\main\java\src\com\csis3275\config\ServletInitializer.java
 E:\Study\CSIS\Summer 2020\CSIS 3275 - Software Engineering\Workspace\Group_Project\src\main\java\src\com\csis3275\controller\TeamController.java
 E:\Study\CSIS\Summer 2020\CSIS 3275 - Software Engineering\Workspace\Group_Project\src\main\java\src\com\csis3275\model\Member.java
 E:\Study\CSIS\Summer 2020\CSIS 3275 - Software Engineering\Workspace\Group_Project\src\main\java\src\com\csis3275\config\SpringMVCConfig.java
+=======
+C:\Users\AramH\eclipse-workspace\Assignment2_iteration0\src\main\java\src\com\csis3275\controller\TeamController.java
+C:\Users\AramH\eclipse-workspace\Assignment2_iteration0\src\main\java\src\com\csis3275\config\ServletInitializer.java
+C:\Users\AramH\eclipse-workspace\Assignment2_iteration0\src\main\java\src\com\csis3275\config\SpringMVCConfig.java
+C:\Users\AramH\eclipse-workspace\Assignment2_iteration0\src\main\java\src\com\csis3275\model\Member.java
+C:\Users\AramH\eclipse-workspace\Assignment2_iteration0\src\main\java\src\com\csis3275\model\AwesomeTeam.java
+>>>>>>> 315805181f5c4e8cdf6fbcd9c159a066af8c151c
