@@ -21,10 +21,19 @@ public class Member {
 		this.student_ID = student_ID;
 	}
 	public ArrayList <String> getTasks() {
+		
 		return tasks;
 	}
 	public void setTasks(ArrayList <String> tasks) {
 		this.tasks = tasks;
+	}
+	
+	public String toString() {
+		String st = "";
+		for(String x : getTasks()) {
+			st += "<li>" + x + "</li>";
+		}
+		return st;
 	}
 	
 
