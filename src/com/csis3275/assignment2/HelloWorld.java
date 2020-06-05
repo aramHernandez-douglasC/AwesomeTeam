@@ -20,6 +20,11 @@ public class HelloWorld {
 		System.out.println(member2.getName());
 		
 
+        Member member3 = new Member();
+		
+		member3.setName("Chengze");
+		
+		System.out.println(member3.getName());
 	
 	}
 
