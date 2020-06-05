@@ -10,30 +10,7 @@
 <title>Awesome Team Assignment 2</title>
 </head>
 <body>
-<<<<<<< HEAD
-	<h1>KLOC Calculator - Aram Hernandez - 300285533</h1>
-	<p>The result is: ${members}</p> 
-=======
-	<%@ page import = 'src.com.csis3275.*, java.util.*'  %>
-	
-	<%!  AwesomeTeam team = new AwesomeTeam();
-		
-		
-		
-	%>
-	<%
-		team.setgName("Awesome Team");
-		team.setDescription("Our team will develop a hospital" 
-				+ "management system which will allow patients, doctors "+
-				"and admins to manage and check their medical status");
-		
-		
-	%>
-	<h3><% team.getgName(); %></h3>
-	<p> <% team.getDescription(); %></p>
-	<hr>
-	
-	<li> ${members} </li>
->>>>>>> 315805181f5c4e8cdf6fbcd9c159a066af8c151c
+	<li>${members[0].getName()}</li>
+	<li>${members[0].getStudent_ID()}</li>
 </body>
 </html>

@@ -18,16 +18,12 @@ public class TeamController {
  /*
  * This method will serve as default GET handler.
  */
-<<<<<<< HEAD
+
+
  @RequestMapping(method = RequestMethod.GET)
  public String newProfile(ModelMap model) {
- model.addAttribute("members", "abc");
-=======
- @RequestMapping(value = "/TeamView", method = RequestMethod.GET)
- public String newProfile(ModelMap model) {
- Member teamLeader = new Member();
- model.addAttribute("member", teamLeader);
->>>>>>> 315805181f5c4e8cdf6fbcd9c159a066af8c151c
+ model.addAttribute("members", initializeMembers());
+
  return "TeamView";
  }
  
@@ -82,7 +78,7 @@ public class TeamController {
 	 member1.setTasks(tasksAram);
 	 member1.setStudent_ID(300285533);
 	 
-	 
+	 members.add(member1);
 	 
 	 
 	
