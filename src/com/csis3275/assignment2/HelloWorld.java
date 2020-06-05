@@ -6,11 +6,20 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 		System.out.println("");
 		
+		Member mem1 = new Member();
+		
+		mem1.setName("Aram Hernandez Garduno ");
+		
+		System.out.println(mem1.getName());
+
+		
 		Member member2 = new Member();
 		
 		member2.setName("Ryan");
 		
 		System.out.println(member2.getName());
+		
+
 	
 	}
 
