@@ -1,3 +1,5 @@
+<%@page import="src.com.csis3275.model.Member"%>
+<%@page import="src.com.csis3275.model.AwesomeTeam"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
@@ -5,27 +7,28 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>KLOC Calculator - Aram Hernandez - 300285533</title>
+<title>Awesome Team Assignment 2</title>
 </head>
 <body>
-	<h1>KLOC Calculator - Aram Hernandez - 300285533</h1>
-	<form:form method="POST" modelAttribute="KlocView_AHe_33">
-		<table>
-			<tr>
-				<td><label>KLOC</label></td>
-				<td><form:input type="text" path="kloc" id="kloc" />
-					<form:errors path="kloc" style="color:red" /></td>
-			</tr>
-			<tr>
-				<td><label>Day Count</label></td>
-				<td><form:input type="text" path="Daycount" id="Daycount" /> <form:errors
-						path="Daycount " style="color:red" /></td>
-			</tr>
-			
-			<tr>
-				<td colspan="2"><input type="submit" value="Submit"></td>
-			</tr>
-		</table>
-	</form:form>
+	<%@ page import = 'src.com.csis3275.*, java.util.*'  %>
+	
+	<%!  AwesomeTeam team = new AwesomeTeam();
+		
+		
+		
+	%>
+	<%
+		team.setgName("Awesome Team");
+		team.setDescription("Our team will develop a hospital" 
+				+ "management system which will allow patients, doctors "+
+				"and admins to manage and check their medical status");
+		
+		
+	%>
+	<h3><% team.getgName(); %></h3>
+	<p> <% team.getDescription(); %></p>
+	<hr>
+	
+	<li> ${members} </li>
 </body>
 </html>
