@@ -97,13 +97,13 @@ public class TeamController {
 	 member3.setName("Chengze Wu");
 	 
 	 ArrayList <String> tasksChengze =  new ArrayList<String>();
-	 tasksRyan.add("UX/UI Design");
-	 tasksRyan.add("HTML/CSS Front End");
-	 tasksRyan.add("Testing");
-	 tasksAram.add("Developer Documentation");
+	 tasksChengze.add("UX/UI Design");
+	 tasksChengze.add("HTML/CSS Front End");
+	 tasksChengze.add("Testing");
+	 tasksChengze.add("Developer Documentation");
 	 
-	 member2.setTasks(tasksChengze);
-	 member2.setStudent_ID(300301018);
+	 member3.setTasks(tasksChengze);
+	 member3.setStudent_ID(300301018);
 	 
 	 members.add(member3);
 
